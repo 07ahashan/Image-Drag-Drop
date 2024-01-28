@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Drag_Area{
+    width: 340px;
+    height: 220px;
+    border: 1px solid bisque;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+   
+}
+#Img_Area{
+    width: 100%;
+    height:100% ;
+    border: 2px dashed rgb(222, 149, 60);
+    border-radius: 15px;
+    background-color: antiquewhite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Img_Area p{
+    font-weight: 550;
+}
+
+#Img_Area span{
+    font-size: 15px;
+    color: rgb(142, 113, 113);
+}
